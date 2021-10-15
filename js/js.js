@@ -1,4 +1,4 @@
-const arrayImg = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg","img6.jpg","img7.jpg"];
+const arrayImg = ["img1.webp","img2.webp","img3.webp","img4.webp","img5.webp","img6.webp","img7.webp"];
 let imgAct = 1;
 console.log(arrayImg)
 /* Seleccion de botones */
@@ -10,12 +10,12 @@ let gallery = document.querySelector(".main__gallery");
 adelante.addEventListener("click",()=>{
     imgAct++;
     cambiarImg()
-    gallery.style.backgroundImage = `url(img/tattoos/img${imgAct}.jpg)`
+    gallery.style.backgroundImage = `url(img/tattoos/img${imgAct}.webp)`
 })
 atras.addEventListener("click",()=>{
     imgAct--;
     cambiarImg()
-    gallery.style.backgroundImage = `url(img/tattoos/img${imgAct}.jpg)`
+    gallery.style.backgroundImage = `url(img/tattoos/img${imgAct}.webp)`
 })
 function cambiarImg(){
     if(imgAct>arrayImg.length){
