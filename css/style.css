@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+:root {
+   --bg-black: #000;
+   --bg-secundary: #fff;
+   --font-primary: #fff;
+   --font-secundary: #000;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.header h1{
+    color: var(--font-primary);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.header p{
+    color: var(--font-primary);
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.nav{
+    background: var(--bg-black);
+    display: none;
+}
+
+/* MAIN */
+.main{
+    height: 100vh;
+    text-align: center;
+}
+.main__h2{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main__h2:nth-child(4){
+    margin: 50px 0;
+}
+
+.main__a{
+    color: var(--font-secundary);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.box__a{
+    margin-top: 10px;
+}
+.main__gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-image: url(../img/tattoos/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ;
+    -webkit-transition: all 0.2s ;
+    -moz-transition: all 0.2s ;
+    -ms-transition: all 0.2s ;
+    -o-transition: all 0.2s ;
+}
+.prev_next{
+    font-size: 30px;
+    color: var(--font-primary);
+    text-shadow: 5px 2px 5px black;
+}
+.gallery__img{  
+    width: 100vw;
+    height: 50vh;
+}
+/* TATUADORES */
+.main__tatuadores{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tatuadores__h3{
+    font-size: 13px;
+    padding: 15px 0;
+}
+.tatuadores__img{
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.estilos{
+    height: 50vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
