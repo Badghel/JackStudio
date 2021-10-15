@@ -35,8 +35,26 @@ html{
     font-weight: bold;
 }
 .nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     background: var(--bg-black);
-    display: none;
+    
+}
+.nav__ul{
+    color: var(--font-primary);
+    font-size: 13px;
+}
+.nav__ul li{
+    list-style: none;
+}
+.icon_phone{
+    color: red;
+}
+.ig{
+    color:var(--font-primary);
+    font-size: 16px;
+    margin-left: 2px;
 }
 
 /* MAIN */
