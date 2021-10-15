@@ -89,7 +89,7 @@ html{
 /* TATUADORES */
 .main__tatuadores{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .tatuadores__h3{
@@ -104,11 +104,13 @@ html{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.section__estilos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .estilos{
-    height: 25vh;
-    border-radius: 45%;
-    -webkit-border-radius: 45%;
-    -moz-border-radius: 45%;
-    -ms-border-radius: 45%;
-    -o-border-radius: 45%;
+    width: 200px;
+    height: auto;
 }
