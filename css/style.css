@@ -39,7 +39,7 @@ html{
     flex-direction: row-reverse;
     justify-content: space-between;
     background: var(--bg-black);
-    
+    padding: 10px 5px;
 }
 .nav__ul{
     color: var(--font-primary);
