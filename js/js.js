@@ -1,12 +1,12 @@
+    const arrayImg = ["img1.webp","img2.webp","img3.webp","img4.webp","img5.webp","img6.webp","img7.webp"];
+            let imgAct = 1;
+            console.log(arrayImg)
+            /* Seleccion de botones */
+            let atras = document.getElementById("atras")
+            let adelante = document.getElementById("adelante")
+            let gallery = document.querySelector(".main__gallery");
 
-document.addEventListener("DOMContentLoaded",()=>{
-            const arrayImg = ["img1.webp","img2.webp","img3.webp","img4.webp","img5.webp","img6.webp","img7.webp"];
-        let imgAct = 1;
-        console.log(arrayImg)
-        /* Seleccion de botones */
-        let atras = document.getElementById("atras")
-        let adelante = document.getElementById("adelante")
-        let gallery = document.querySelector(".main__gallery");
+
     adelante.addEventListener("click",()=>{
         imgAct++;
         cambiarImg()
@@ -26,5 +26,5 @@ document.addEventListener("DOMContentLoaded",()=>{
         }
        
     }
-})
+
 
